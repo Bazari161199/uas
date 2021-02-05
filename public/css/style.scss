@@ -1,0 +1,377 @@
+// @font-face {
+//     font-family: "tugas";
+//     src: url('12.ttf');
+//     }
+
+body{
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+header{
+    .container-fluid{
+        ul{
+            li{
+                h4{
+                    font-size: 18px;
+                    color: black;
+
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}
+
+main{
+    padding-left: 50px;
+    padding-right: 50px;
+    .container-fluid{
+        .jumbotron{
+            .container{
+                nav{
+                    .collapse{
+                        ul{
+                            li{
+                                a{
+                                    text-decoration: none;
+                                    color: white;
+
+                                    &:hover{
+                                        color: yellow;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .row{
+                    .kiri{
+                        h1{
+                            // font-family: Arial, Helvetica, sans-serif;
+                            color: black;
+                            span{
+                                background-color: white;
+                                padding: 10px;
+                            }
+                        }
+                        .body-text{
+                            background-color: black;
+                            // padding: 10px;
+                            p{
+                                color: white;
+                                // line-height: 1.5px;
+                                font-size: 400;
+                            }
+                        }
+                        .link{
+                            a{
+                                background-color: yellow;
+                                padding: 10px;
+                                text-decoration: none;
+                                font-family: Arial, Helvetica, sans-serif;
+                                color: black;
+                                font-weight: bold;
+                                font-size: 25px;
+                                line-height: 0;
+                                text-transform: uppercase;
+                            }
+
+                        }
+                    }
+                    .kanan{
+                        .image-bg{
+                            .caption{
+                                color: white;
+                                position: absolute;
+                                background: rgba(0,0,0,.9);
+                                padding: 15px;
+                                color: #fff;
+                                left: 35px;
+                                bottom: 15px;
+                                a{
+                                    color: white;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .isi{
+            .row{
+                .kotak{
+                    a{
+                        text-decoration: none;
+                        .card{
+                            .card-body{
+                                background-color: black;
+                                height: 150px;
+                                &:hover{
+                                    opacity: 0.9;
+                                }
+                                .offset-top{
+                                    h3{
+                                        position: absolute;
+                                        top: 300px;
+                                        span{
+                                            background: #fff;
+                                            color: #000;
+                                            font-size: 22px;
+                                            text-transform: uppercase;
+                                            padding: 8px;
+                                            line-height: 2;
+                                            white-space: break-spaces;
+                                            // top: -15px;
+                                            // left: 10px;
+                                            font-weight: bold;
+
+                                        }
+
+                                    }
+                                    h4{
+                                        position: absolute;
+                                        color: white;
+                                        top: 400px;
+                                        font-size: 15px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .berita{
+            .row{
+
+                .kanan{
+                    background-color: black;
+                    h1{
+                        span{
+                            padding: 10px;
+                            font-weight: bold;
+                            background-color: white;
+                            color: black;
+                        }
+                    }
+                    h3{
+                        margin-top: 40px;
+                        color: white;
+                        font-weight: bold;
+                    }
+                    p{
+                        font-size: 18px;
+                        color: white;
+                        margin-bottom: 40px;
+                    }
+                    a{
+                        background-color: yellow;
+                        padding: 20px;
+                        color: black;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+footer{
+    .atas{
+        padding: 35px;
+        padding-left: 50px;
+        p{
+            color: white;
+            a{
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+    .bawah{
+        background-color: black;
+        color: white;
+        .row{
+            .kiri{
+                .nav-footer{
+                    a{
+                        color: white;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:567px){
+    header{
+        .container-fluid{
+            ul{
+                li{
+                    h4{
+                        font-size: 15px;
+                        color: black;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
+    main{
+        padding-left: 10px;
+        padding-right: 10px;
+        .container-fluid{
+            .jumbotron{
+                .container{
+                    nav{
+                        .collapse{
+                            background: none;
+                            ul{
+                                li{
+                                    a{
+                                        text-decoration: none;
+                                        color: white;
+
+                                        &:hover{
+                                            color: yellow;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .row{
+                        .kiri{
+                            h1{
+                                // font-family: Arial, Helvetica, sans-serif;
+                                color: black;
+                                span{
+                                    background-color: white;
+                                    padding: 10px;
+                                }
+                            }
+                            .body-text{
+                                background-color: black;
+                                // padding: 10px;
+                                p{
+                                    color: white;
+                                    // line-height: 1.5px;
+                                    font-size: 400;
+                                }
+                            }
+                            .link{
+                                a{
+                                    background-color: yellow;
+                                    padding: 10px;
+                                    text-decoration: none;
+                                    font-family: Arial, Helvetica, sans-serif;
+                                    color: black;
+                                    font-weight: bold;
+                                    font-size: 18px;
+                                    line-height: 0;
+                                    text-transform: uppercase;
+                                }
+
+                            }
+                        }
+                        .kanan{
+                            .image-bg{
+                                .caption{
+                                    color: white;
+                                    position: absolute;
+                                    background: rgba(0,0,0,.9);
+                                    padding: 15px;
+                                    color: #fff;
+                                    left: 35px;
+                                    right: 35px;
+                                    bottom: 15px;
+                                    a{
+                                        color: white;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .isi{
+                .row{
+                    .kotak{
+                        a{
+                            text-decoration: none;
+                            .card{
+                                .card-body{
+                                    background-color: black;
+                                    height: 150px;
+                                    .offset-top{
+                                        h3{
+                                            position: absolute;
+                                            top: 300px;
+                                            span{
+                                                background: #fff;
+                                                color: #000;
+                                                font-size: 22px;
+                                                text-transform: uppercase;
+                                                padding: 8px;
+                                                line-height: 2;
+                                                white-space: break-spaces;
+                                                // top: -15px;
+                                                // left: 10px;
+                                                font-weight: bold;
+
+                                            }
+
+                                        }
+                                        h4{
+                                            position: absolute;
+                                            color: white;
+                                            top: 400px;
+                                            font-size: 15px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .berita{
+                .row{
+
+                    .kanan{
+                        background-color: black;
+                        h1{
+                            span{
+                                padding: 10px;
+                                font-weight: bold;
+                                background-color: white;
+                                color: black;
+                                font-size: 23px;
+                            }
+                        }
+                        h3{
+                            margin-top: 40px;
+                            color: white;
+                            font-weight: bold;
+                        }
+                        p{
+                            font-size: 18px;
+                            color: white;
+                            margin-bottom: 40px;
+                        }
+                        a{
+                            background-color: yellow;
+                            padding: 20px;
+                            color: black;
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

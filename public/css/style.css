@@ -1,0 +1,273 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Arial;
+}
+
+header .container-fluid ul li h4 {
+  font-size: 18px;
+  color: black;
+  font-weight: 400;
+}
+
+main {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+main .container-fluid .jumbotron .container nav .collapse ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+main .container-fluid .jumbotron .container nav .collapse ul li a:hover {
+  color: yellow;
+}
+
+main .container-fluid .jumbotron .container .row .kiri h1 {
+  color: black;
+}
+
+main .container-fluid .jumbotron .container .row .kiri h1 span {
+  background-color: white;
+  padding: 10px;
+}
+
+main .container-fluid .jumbotron .container .row .kiri .body-text {
+  background-color: black;
+}
+
+main .container-fluid .jumbotron .container .row .kiri .body-text p {
+  color: white;
+  font-size: 400;
+}
+
+main .container-fluid .jumbotron .container .row .kiri .link a {
+  background-color: yellow;
+  padding: 10px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 0;
+  text-transform: uppercase;
+}
+
+main .container-fluid .jumbotron .container .row .kanan .image-bg .caption {
+  color: white;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.9);
+  padding: 15px;
+  color: #fff;
+  left: 35px;
+  bottom: 15px;
+}
+
+main .container-fluid .jumbotron .container .row .kanan .image-bg .caption a {
+  color: white;
+}
+
+main .container-fluid .isi .row .kotak a {
+  text-decoration: none;
+}
+
+main .container-fluid .isi .row .kotak a .card .card-body {
+  background-color: black;
+  height: 150px;
+}
+
+main .container-fluid .isi .row .kotak a .card .card-body:hover {
+  opacity: 0.9;
+}
+
+main .container-fluid .isi .row .kotak a .card .card-body .offset-top h3 {
+  position: absolute;
+  top: 300px;
+}
+
+main .container-fluid .isi .row .kotak a .card .card-body .offset-top h3 span {
+  background: #fff;
+  color: #000;
+  font-size: 22px;
+  text-transform: uppercase;
+  padding: 8px;
+  line-height: 2;
+  white-space: break-spaces;
+  font-weight: bold;
+}
+
+main .container-fluid .isi .row .kotak a .card .card-body .offset-top h4 {
+  position: absolute;
+  color: white;
+  top: 400px;
+  font-size: 15px;
+}
+
+main .container-fluid .berita .row .kanan {
+  background-color: black;
+}
+
+main .container-fluid .berita .row .kanan h1 span {
+  padding: 10px;
+  font-weight: bold;
+  background-color: white;
+  color: black;
+}
+
+main .container-fluid .berita .row .kanan h3 {
+  margin-top: 40px;
+  color: white;
+  font-weight: bold;
+}
+
+main .container-fluid .berita .row .kanan p {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 40px;
+}
+
+main .container-fluid .berita .row .kanan a {
+  background-color: yellow;
+  padding: 20px;
+  color: black;
+  font-weight: bold;
+}
+
+footer .atas {
+  padding: 35px;
+  padding-left: 50px;
+}
+
+footer .atas p {
+  color: white;
+}
+
+footer .atas p a {
+  color: white;
+  text-decoration: none;
+}
+
+footer .bawah {
+  background-color: black;
+  color: white;
+}
+
+footer .bawah .row .kiri .nav-footer a {
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 567px) {
+  header .container-fluid ul li h4 {
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+  }
+  main {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  main .container-fluid .jumbotron .container nav .collapse {
+    background: none;
+  }
+  main .container-fluid .jumbotron .container nav .collapse ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  main .container-fluid .jumbotron .container nav .collapse ul li a:hover {
+    color: yellow;
+  }
+  main .container-fluid .jumbotron .container .row .kiri h1 {
+    color: black;
+  }
+  main .container-fluid .jumbotron .container .row .kiri h1 span {
+    background-color: white;
+    padding: 10px;
+  }
+  main .container-fluid .jumbotron .container .row .kiri .body-text {
+    background-color: black;
+  }
+  main .container-fluid .jumbotron .container .row .kiri .body-text p {
+    color: white;
+    font-size: 400;
+  }
+  main .container-fluid .jumbotron .container .row .kiri .link a {
+    background-color: yellow;
+    padding: 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 0;
+    text-transform: uppercase;
+  }
+  main .container-fluid .jumbotron .container .row .kanan .image-bg .caption {
+    color: white;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.9);
+    padding: 15px;
+    color: #fff;
+    left: 35px;
+    right: 35px;
+    bottom: 15px;
+  }
+  main .container-fluid .jumbotron .container .row .kanan .image-bg .caption a {
+    color: white;
+  }
+  main .container-fluid .isi .row .kotak a {
+    text-decoration: none;
+  }
+  main .container-fluid .isi .row .kotak a .card .card-body {
+    background-color: black;
+    height: 150px;
+  }
+  main .container-fluid .isi .row .kotak a .card .card-body .offset-top h3 {
+    position: absolute;
+    top: 300px;
+  }
+  main .container-fluid .isi .row .kotak a .card .card-body .offset-top h3 span {
+    background: #fff;
+    color: #000;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 8px;
+    line-height: 2;
+    white-space: break-spaces;
+    font-weight: bold;
+  }
+  main .container-fluid .isi .row .kotak a .card .card-body .offset-top h4 {
+    position: absolute;
+    color: white;
+    top: 400px;
+    font-size: 15px;
+  }
+  main .container-fluid .berita .row .kanan {
+    background-color: black;
+  }
+  main .container-fluid .berita .row .kanan h1 span {
+    padding: 10px;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    font-size: 23px;
+  }
+  main .container-fluid .berita .row .kanan h3 {
+    margin-top: 40px;
+    color: white;
+    font-weight: bold;
+  }
+  main .container-fluid .berita .row .kanan p {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 40px;
+  }
+  main .container-fluid .berita .row .kanan a {
+    background-color: yellow;
+    padding: 20px;
+    color: black;
+    font-weight: bold;
+  }
+}
+/*# sourceMappingURL=style.css.map */
